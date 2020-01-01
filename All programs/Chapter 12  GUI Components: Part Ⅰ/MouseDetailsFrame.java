@@ -20,7 +20,7 @@ public class MouseDetailsFrame extends JFrame {
 	}
 	
 	// inner class to handle mouse events
-	private class MouseClickedHandler extends MouseAdapter {
+	private class MouseClickHandler extends MouseAdapter {
 		// handle mouse-click event and determine which button was pressed
 		@Override
 		public void mouseClicked(MouseEvent event) {
