@@ -7,9 +7,9 @@ import javax.swing.JFrame;
 import javax.swing.JTextArea;
 
 public class KeyDemoFrame extends JFrame implements KeyListener {
-	private final String line1 = ""; // first line of text area
-	private final String line2 = ""; // second line of text area
-	private final String line3 = ""; // third line of text area
+	private String line1 = ""; // first line of text area
+	private String line2 = ""; // second line of text area
+	private String line3 = ""; // third line of text area
 	private final JTextArea textArea; // text area to display output
 	
 	// KeyDemoFrame constructor
