@@ -23,7 +23,7 @@ public class SetTest {
 		// create a HashSet
 		Set<String> set = new HashSet<>(values);
 		
-		System.out.printf("%nNonduplicates are");
+		System.out.printf("%nNonduplicates are: ");
 		
 		for (String value : set)
 			System.out.printf("%s ", value);
